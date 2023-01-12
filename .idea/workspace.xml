@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056c959a-6f6b-43ff-922d-214a9ffe5676" name="Changes" comment="Deploying Confluent Kafka to local Kubernetes using cp-helm-charts">
-      <change afterPath="$PROJECT_DIR$/application-deployment-local.yml" afterDir="false" />
+    <list default="true" id="056c959a-6f6b-43ff-922d-214a9ffe5676" name="Changes" comment="Creating Kubernetes deployment files for Microservices">
+      <change afterPath="$PROJECT_DIR$/postgres-deployment.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-deployment-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/application-deployment-local.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Development/food-ordering-system"
+    "last_opened_file_path": "C:/Development/food-ordering-system-infra"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,7 +53,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673140589143</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creating Kubernetes deployment files for Microservices">
+      <created>1673469154911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673469154911</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -68,6 +76,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Deploying Confluent Kafka to local Kubernetes using cp-helm-charts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deploying Confluent Kafka to local Kubernetes using cp-helm-charts" />
+    <MESSAGE value="Creating Kubernetes deployment files for Microservices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Kubernetes deployment files for Microservices" />
   </component>
 </project>
